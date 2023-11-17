@@ -1,7 +1,13 @@
 apiVersion: "kubean.io/v1alpha1"
 kind: "Manifest"
 metadata:
-  name: "kubeaninfomanifest-2.23-ffacfe3"
+  name: "manifest-2.23-ffacfe3"
+  labels:
+    kubean.io/sprayRelease: "2.23"
+  annotations:
+    kubean.io/sprayTimestamp: "1698636044"
+    kubean.io/sprayRelease: "2.23"
+    kubean.io/sprayCommit: "ffacfe3"
 spec:
   kubesprayVersion: "ffacfe3ede6695c714175d6bb095c31cf4314a2c"
   kubeanVersion: ""
