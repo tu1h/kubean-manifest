@@ -11,6 +11,6 @@ $ wget https://raw.githubusercontent.com/kubean-io/kubean-manifest/main/manifest
 $ kubectl apply -f manifests/manifest-${release_num}-${shot_commit_hash}.yml
 
 # e.g:
-$ wget https://raw.githubusercontent.com/kubean-io/kubean-manifest/main/manifests/manifest-2.23-10679eb.demo.yml
-$ kubectl apply -f manifests/manifest-2.23-10679eb.demo.yml
+$ wget https://raw.githubusercontent.com/kubean-io/kubean-manifest/main/manifests/manifest-2.23-10679eb.yml
+$ kubectl apply -f manifests/manifest-2.23-10679eb.yml
 ```
